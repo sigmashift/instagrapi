@@ -601,13 +601,13 @@ class LoginMixin(PreLoginFlowMixin, PostLoginFlowMixin):
             "app_version": "203.0.0.29.118",
             "android_version": 26,
             "android_release": "8.0.0",
-            "dpi": "480dpi",
-            "resolution": "1080x1920",
-            "manufacturer": "Xiaomi",
-            "device": "capricorn",
-            "model": "MI 5s",
-            "cpu": "qcom",
-            "version_code": "314665256",
+            "dpi": "640dpi",
+            "resolution": "1440x2560",
+            "manufacturer": "samsung",
+            "device": "herolte",
+            "model": "SM-G930F",
+            "cpu": "samsungexynos8890",
+            "version_code": "138226743",
         }
         self.settings["device_settings"] = self.device_settings
         if reset:
